@@ -1,0 +1,13 @@
+observations :
+1) path.png :
+	in path.png we can observe that by randomizing the movement with prob = 0.2 as only bias against optimal move results in produced path being non-optimal(as expected) .
+
+
+
+2) plot.png
+ 
+	we can say probability is determining factor by how much our runner spans the grid, lower the probability higher the span and at 0 prob we get all movements being random, hence very large number of steps required by the runner as he is practically guessing at each step.
+
+	as p increases randomness in determining next move decreases and chances of taking optimal path increases, hence number of step required by the runner decreases
+
+	and at p = 1 we have optimal policy which gives 'one of the path out of paths which have shorted length'.
